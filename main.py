@@ -7,9 +7,9 @@ class ConnectNuist:
         self.url_login = 'http://a.nuist.edu.cn/api/v1/login'
         self.url_logout = 'http://a.nuist.edu.cn/api/v1/logout'
         self.account_info = {
-            "username": "",  # 你的账户名
+            "username": "12345678",  # 你的账户名
             "password": "12345678",  # 密码
-            "ifautologin": "12345678",  # 是否自动登陆，好像没太大作用
+            "ifautologin": "1",  # 是否自动登陆，好像没太大作用
             "channel": "4",  # 运营商选择 移动2 电信3 联通4
         }
         self.inuist = requests.session()
